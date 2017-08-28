@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3D02C331F4EB28200D5EA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D02C321F4EB28200D5EA82 /* AppDelegate.swift */; };
+		E3D02C381F4EB28200D5EA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D02C361F4EB28200D5EA82 /* Main.storyboard */; };
+		E3D02C3B1F4EB28200D5EA82 /* Football_Team.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3D02C391F4EB28200D5EA82 /* Football_Team.xcdatamodeld */; };
+		E3D02C3D1F4EB28200D5EA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D02C3C1F4EB28200D5EA82 /* Assets.xcassets */; };
+		E3D02C401F4EB28200D5EA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D02C3E1F4EB28200D5EA82 /* LaunchScreen.storyboard */; };
+		E3D02C491F4EB6BC00D5EA82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D02C481F4EB6BC00D5EA82 /* HomeViewController.swift */; };
+		E3D02C4D1F4EB80600D5EA82 /* coredata_footballteam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D02C4C1F4EB80600D5EA82 /* coredata_footballteam.swift */; };
+		E3D02C4F1F4EBBA100D5EA82 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D02C4E1F4EBBA100D5EA82 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3D02C2F1F4EB28200D5EA82 /* Football Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Football Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D02C321F4EB28200D5EA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3D02C371F4EB28200D5EA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3D02C3A1F4EB28200D5EA82 /* Football_Team.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Football_Team.xcdatamodel; sourceTree = "<group>"; };
+		E3D02C3C1F4EB28200D5EA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D02C3F1F4EB28200D5EA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3D02C411F4EB28200D5EA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D02C481F4EB6BC00D5EA82 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E3D02C4C1F4EB80600D5EA82 /* coredata_footballteam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coredata_footballteam.swift; sourceTree = "<group>"; };
+		E3D02C4E1F4EBBA100D5EA82 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3D02C2C1F4EB28200D5EA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3D02C261F4EB28200D5EA82 = {
+			isa = PBXGroup;
+			children = (
+				E3D02C311F4EB28200D5EA82 /* Football Team */,
+				E3D02C301F4EB28200D5EA82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D02C301F4EB28200D5EA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D02C2F1F4EB28200D5EA82 /* Football Team.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D02C311F4EB28200D5EA82 /* Football Team */ = {
+			isa = PBXGroup;
+			children = (
+				E3D02C321F4EB28200D5EA82 /* AppDelegate.swift */,
+				E3D02C4C1F4EB80600D5EA82 /* coredata_footballteam.swift */,
+				E3D02C481F4EB6BC00D5EA82 /* HomeViewController.swift */,
+				E3D02C4E1F4EBBA100D5EA82 /* DetailsViewController.swift */,
+				E3D02C361F4EB28200D5EA82 /* Main.storyboard */,
+				E3D02C471F4EB69F00D5EA82 /* Supporting Files */,
+			);
+			path = "Football Team";
+			sourceTree = "<group>";
+		};
+		E3D02C471F4EB69F00D5EA82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3D02C3C1F4EB28200D5EA82 /* Assets.xcassets */,
+				E3D02C3E1F4EB28200D5EA82 /* LaunchScreen.storyboard */,
+				E3D02C411F4EB28200D5EA82 /* Info.plist */,
+				E3D02C391F4EB28200D5EA82 /* Football_Team.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3D02C2E1F4EB28200D5EA82 /* Football Team */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D02C441F4EB28200D5EA82 /* Build configuration list for PBXNativeTarget "Football Team" */;
+			buildPhases = (
+				E3D02C2B1F4EB28200D5EA82 /* Sources */,
+				E3D02C2C1F4EB28200D5EA82 /* Frameworks */,
+				E3D02C2D1F4EB28200D5EA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Football Team";
+			productName = "Football Team";
+			productReference = E3D02C2F1F4EB28200D5EA82 /* Football Team.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3D02C271F4EB28200D5EA82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jeremy Tay";
+				TargetAttributes = {
+					E3D02C2E1F4EB28200D5EA82 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 87T555YMMN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E3D02C2A1F4EB28200D5EA82 /* Build configuration list for PBXProject "Football Team" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3D02C261F4EB28200D5EA82;
+			productRefGroup = E3D02C301F4EB28200D5EA82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3D02C2E1F4EB28200D5EA82 /* Football Team */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3D02C2D1F4EB28200D5EA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D02C401F4EB28200D5EA82 /* LaunchScreen.storyboard in Resources */,
+				E3D02C3D1F4EB28200D5EA82 /* Assets.xcassets in Resources */,
+				E3D02C381F4EB28200D5EA82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3D02C2B1F4EB28200D5EA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D02C331F4EB28200D5EA82 /* AppDelegate.swift in Sources */,
+				E3D02C3B1F4EB28200D5EA82 /* Football_Team.xcdatamodeld in Sources */,
+				E3D02C4D1F4EB80600D5EA82 /* coredata_footballteam.swift in Sources */,
+				E3D02C491F4EB6BC00D5EA82 /* HomeViewController.swift in Sources */,
+				E3D02C4F1F4EBBA100D5EA82 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3D02C361F4EB28200D5EA82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D02C371F4EB28200D5EA82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3D02C3E1F4EB28200D5EA82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D02C3F1F4EB28200D5EA82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3D02C421F4EB28200D5EA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3D02C431F4EB28200D5EA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3D02C451F4EB28200D5EA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87T555YMMN;
+				INFOPLIST_FILE = "Football Team/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoryBoard-intro.Football-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3D02C461F4EB28200D5EA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87T555YMMN;
+				INFOPLIST_FILE = "Football Team/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoryBoard-intro.Football-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3D02C2A1F4EB28200D5EA82 /* Build configuration list for PBXProject "Football Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D02C421F4EB28200D5EA82 /* Debug */,
+				E3D02C431F4EB28200D5EA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D02C441F4EB28200D5EA82 /* Build configuration list for PBXNativeTarget "Football Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D02C451F4EB28200D5EA82 /* Debug */,
+				E3D02C461F4EB28200D5EA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3D02C391F4EB28200D5EA82 /* Football_Team.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3D02C3A1F4EB28200D5EA82 /* Football_Team.xcdatamodel */,
+			);
+			currentVersion = E3D02C3A1F4EB28200D5EA82 /* Football_Team.xcdatamodel */;
+			path = Football_Team.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3D02C271F4EB28200D5EA82 /* Project object */;
+}
